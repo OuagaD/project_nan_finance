@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+.head_fin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+}
+.head_fin_namelg{
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+}
+.head_fin_name{
+    color: #5B812E;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head_fin_lg{
+    background-image: url("./img/finance-logo1-removebg-preview.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.head_fin_menu{
+    display: flex;
+}
+.head_fin_acc{
+    border: 2px solid red;
+    background-image: url("./img/maison.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.head_fin_trans{
+    border: 2px solid red;
+    background-image: url("./img/transaction\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.head_fin_pani{
+    border: 2px solid red;
+    background-image: url("./img/panier\ \(2\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.head_fin_connex{
+    display: flex;
+    
+}
+.head_fin_insc{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #5B812E;
+    color: white;
+    height: 25px;
+    width: 150px;
+}
+.head_fin_secon{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: #579709;
+    height: 25px;
+    width: 150px;
+}
+.corpsgnr{
+    height: 1000px;
+    background-color: #2F2235;
+}
