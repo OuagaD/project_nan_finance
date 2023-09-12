@@ -133,10 +133,8 @@
     font-size: 2em;
 }
 .corp3_acc_cont{
-    border: 2px solid red;
 }
 .corp3_acc_img{
-    border: 2px solid red;
     height: 180px;
     width: 250px;
 }
@@ -147,6 +145,7 @@
 .corp3_acc_imgconfim{
     background-image: url("./img/gmail-confirmation-lecture.jpeg");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imgfld{
     background-image: url("./img/longue-fleche-pointant-vers-la-droite.png");
@@ -155,6 +154,7 @@
 .corp3_acc_imginfsupp{
     background-image: url("./img/Call-Centers-Africa-1024x667.png");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imgfldr{
     height: 180px;
@@ -165,6 +165,7 @@
 .corp3_acc_imgform{
     background-image: url("./img/form.jpeg");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imgcharg{
     background-image: url("./img/chargement.jpeg");
@@ -173,6 +174,7 @@
 .corp3_acc_imglvr{
     background-image: url("./img/lvr.jpeg");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imgflg{
     background-image: url("./img/longue-fleche-pointant-vers-la-droite\ \(1\).png");
@@ -181,6 +183,7 @@
 .corp3_acc_imgrdv{
     background-image: url("./img/importance-prise-rdv-efficace-entreprise.jpeg");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imgflgr{
     background-image: url("./img/fleche-vers-le-bas-courbe\ \(1\).png");
