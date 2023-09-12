@@ -11,6 +11,7 @@
 .head_fin_namelg{
     border: 2px solid red;
     background-color: white;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +81,108 @@
     width: 150px;
 }
 .corpsgnr{
-    height: 1000px;
+    height: 810px;
     background-color: #2F2235;
+}
+.corp1_acc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    height: 400px;
+    background-image: url("./img/610x\ \(4\)\(117\).jpeg");
+    background-size: cover;
+}
+.corp1_acc_txt{
+    color: #628e2c;
+    font-size: 1.9em;
+}
+.corp1_acc_imgcrd{
+    border: 2px solid red;
+    height: 250px;
+    width: 400px;
+    background-image: url("./img/crd1-removebg-preview.png");
+    background-size: cover;
+}
+.corp2_acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.corp2_acc_imgcrd{
+    border: 2px solid red;
+    background-image: url("./img/cb-relief-frontpic.webp");
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+}
+.corp2_acc_txt{
+    color: white;
+}
+.corp3_acc{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.corp3_acc_txt{
+    color:#2F2235;
+    font-size: 2em;
+}
+.corp3_acc_cont{
+    border: 2px solid red;
+}
+.corp3_acc_img{
+    border: 2px solid red;
+    height: 180px;
+    width: 250px;
+}
+.corp3_acc_imgfldc{
+    background-image: url("./img/fleche-vers-le-bas-courbe\ \(2\).png");
+    background-size: cover;
+}
+.corp3_acc_imgconfim{
+    background-image: url("./img/gmail-confirmation-lecture.jpeg");
+    background-size: cover;
+}
+.corp3_acc_imgfld{
+    background-image: url("./img/longue-fleche-pointant-vers-la-droite.png");
+    background-size: cover;
+}
+.corp3_acc_imginfsupp{
+    background-image: url("./img/Call-Centers-Africa-1024x667.png");
+    background-size: cover;
+}
+.corp3_acc_imgfldr{
+    height: 180px;
+    width: 250px;
+    background-image: url("./img/fleche-vers-le-bas-courbe.png");
+    background-size: cover;
+}
+.corp3_acc_imgform{
+    background-image: url("./img/form.jpeg");
+    background-size: cover;
+}
+.corp3_acc_imgcharg{
+    background-image: url("./img/chargement.jpeg");
+    background-size: cover;
+}
+.corp3_acc_imglvr{
+    background-image: url("./img/lvr.jpeg");
+    background-size: cover;
+}
+.corp3_acc_imgflg{
+    background-image: url("./img/longue-fleche-pointant-vers-la-droite\ \(1\).png");
+    background-size: cover;
+}
+.corp3_acc_imgrdv{
+    background-image: url("./img/importance-prise-rdv-efficace-entreprise.jpeg");
+    background-size: cover;
+}
+.corp3_acc_imgflgr{
+    background-image: url("./img/fleche-vers-le-bas-courbe\ \(1\).png");
+    background-size: cover; 
 }
