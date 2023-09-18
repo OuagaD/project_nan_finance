@@ -235,3 +235,62 @@
     height: 35px;
     width: 35px;
 }
+
+
+
+
+
+
+
+/**************seconnecter********seconnecter***********seconnecter**********seconnecter********/
+.fmsecon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #2F2235;
+    margin: 80px auto;
+    height: 550px;
+    width: 350px;
+}
+.fmsecon_lguser{
+    height: 150px;
+    width: 150px;
+    background-image: url('./img/utilisateur\ \(1\).png');
+    background-size: cover;
+}
+.fmsecon_txt{
+    color: white;
+}
+.fmsecon_cont_idmt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 220px;
+}
+.fmsecon_cont_idmt1{
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+}
+.fmsecon_cont_idmt2{
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+}
+.fmsecon_idmt{
+    color: white;
+    font-size: 1.4em;
+}
+.fmsecon_subm{
+    display: flex;
+    justify-content: center;
+}
+.fmsecon_vstxt{
+    color: rgba(255, 255, 255, 0.444);
+}
+.fmsecon_sintxt{
+    color: white;
+    font-size: 1.2em;
+}
