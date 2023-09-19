@@ -243,6 +243,9 @@
 
 
 /**************seconnecter********seconnecter***********seconnecter**********seconnecter********/
+.bodsecon{
+    background-color: #2f223549;
+}
 .fmsecon{
     display: flex;
     flex-direction: column;
@@ -251,12 +254,16 @@
     border-radius: 30px;
     background-color: #2F2235;
     margin: 80px auto;
-    height: 550px;
+    height: 450px;
     width: 350px;
 }
+.fmsecon_lguser_cont{
+    display: flex;
+    justify-content: center;
+}
 .fmsecon_lguser{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     background-image: url('./img/utilisateur\ \(1\).png');
     background-size: cover;
 }
@@ -273,11 +280,17 @@
     height: 40px;
     width: 250px;
     border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    color: #2F2235;
 }
 .fmsecon_cont_idmt2{
     height: 40px;
     width: 250px;
     border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    color: #2F2235;
 }
 .fmsecon_idmt{
     color: white;
@@ -287,10 +300,67 @@
     display: flex;
     justify-content: center;
 }
+.fmsecon_subm_{
+    border: none;
+}
 .fmsecon_vstxt{
     color: rgba(255, 255, 255, 0.444);
 }
 .fmsecon_sintxt{
     color: white;
     font-size: 1.2em;
+}
+
+
+
+
+
+
+/**************inscription********inscription***********inscription**********inscription********/
+.bodinsc{
+    background-color: #2f223549;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.fminsc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    background-color: #2F2235;
+}
+.insc_txt{
+    color: white;
+}
+.fminsc_txt_cont{
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    color: #2F2235;
+    font-size: 1.1em;
+    border:none;
+}
+.btn_insc_cont{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_insc{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border:none;
+    background-color: #5B812E;
+    color:white;
+}
+.fmseinsc_vstxt{
+    color:rgba(255, 255, 255, 0.521);
+}
+.fmsinsc_secontxt{
+    color: white;
 }
