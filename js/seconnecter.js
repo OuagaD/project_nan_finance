@@ -10,7 +10,7 @@ formconx.addEventListener("submit", (e)=>{
     })
     if(typeof tabuser !== "undefined"){
         localStorage.setItem("newuser", JSON.stringify(tabuser))
-        window.location.replace("./../index.html")
+        window.location.replace("./accueil.html")
     }else{
         window.location.reload()
     }

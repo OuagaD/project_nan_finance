@@ -4,7 +4,6 @@
 .nameuser{
     color: white;
     font-size: 3em;
-    margin-left: 300px;
 }
 .head_fin{
     display: flex;
@@ -369,3 +368,15 @@
 .fmsinsc_secontxt{
     color: white;
 }
+
+
+
+
+/**************accueil********accueil***********accueil**********accueil********/
+.mnacc{
+    background-color: #2F2235;
+    border: 2px solid red;
+    height: 2000px;
+}
+
+
