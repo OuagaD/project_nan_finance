@@ -1,10 +1,7 @@
 *{
     margin: 0;
 }
-.nameuser{
-    color: white;
-    font-size: 3em;
-}
+
 .head_fin{
     display: flex;
     justify-content: space-around;
@@ -377,6 +374,84 @@
     background-color: #2F2235;
     border: 2px solid red;
     height: 2000px;
+    color: white;
 }
-
-
+.nameuser{
+    color: white;
+    font-size: 1.5em;
+}
+.inf_part1_cont{
+    border: 2px solid rgb(137, 175, 34);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inf_part1{
+    border: 2px solid white;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inf_cont{
+    height: 500px;
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inf_cont_txt{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+}
+.inf_form{
+    border: 2px solid red;
+    display: flex;
+    justify-content:space-around;
+    width: 550px;
+    height: 370px;
+    font-size: 2em;
+}
+.inf_form_al{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cscl_cont{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    border: 2px solid red;
+    height: 200px;
+    width: 250px;
+}
+.cscl_al{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.csclimg{
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+}
+.cscl_lgtel{
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+}
+.cscl_lgmsg{
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+}
+.inf_graph{
+    border: 2px solid #72aa3b;
+    height: 250px;
+    width: 700px;
+}
