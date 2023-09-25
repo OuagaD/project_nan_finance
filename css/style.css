@@ -255,6 +255,9 @@
     margin: 80px auto;
     height: 450px;
     width: 350px;
+    box-shadow: 10px 10px 5px 0px rgba(206, 203, 203, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(68, 49, 83, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(238, 226, 226, 0.75);
 }
 .fmsecon_lguser_cont{
     display: flex;
@@ -548,4 +551,116 @@
     border-radius: 20px;
     height: 60px;
     width: 180px;
+}
+
+
+
+
+
+/**************transaction********transcaton***********transaction**********transacion********/
+.cont_trans_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.trans_form_ps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B591BE;
+    width: 350px;
+    height: 600px;
+}
+.trans_form{
+    color: #2F2235;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+    width: 300px;
+}
+.trans_form_ps1{
+    display: flex;
+}
+.trans_form_ps_labinp{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+
+}
+.trans_form_modpay_txt_cont{
+   
+}
+.trans_form_modpay_txt{
+    display: flex;
+    align-items: center;
+}
+.trans_form_modpay_txtil{
+    display: inline-block;
+    background-color: white;
+    width: 85px;
+    height: 1px;
+}
+.trans_form_lgrs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.trans_imgMTN{
+    background-image: url('./img/mtn_MoMo-1024x812.png');
+    background-size: cover;
+    border-radius: 15px;
+    height: 70px;
+    width: 80px;
+    margin-right: 10px;
+}
+.trans_imgORG{
+    background-image: url('./img/orange.png');
+    background-size: cover;
+    border-radius: 15px;
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+}
+.trans_imgMOOV{
+    background-image: url('./img/moov.png');
+    background-size: cover;
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+
+}
+.trans_form_modpay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.trans_form_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.trans_corpsgnr2{
+    border: 2px solid red;
+}
+.trans_corp3_acc_txt{
+    color:#FFFFFF;
+    font-size: 2em;
+}
+.trans_corp3_acc_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #579709;
+    background-color: #B591BE;
+}
+.trans_corp3_acc_table{
+    border: 2px solid #FFFFFF;
+    width: 950px;
+    height: 550px;
 }
