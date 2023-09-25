@@ -6,11 +6,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: #1d0827;
     height: 70px;
 }
 .head_fin_namelg{
-    border: 2px solid red;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -34,21 +33,21 @@
     display: flex;
 }
 .head_fin_acc{
-    border: 2px solid red;
+    
     background-image: url("./img/maison.png");
     background-size: cover;
     height: 50px;
     width: 50px;
 }
 .head_fin_trans{
-    border: 2px solid red;
+    
     background-image: url("./img/transaction\ \(1\).png");
     background-size: cover;
     height: 50px;
     width: 50px;
 }
 .head_fin_pani{
-    border: 2px solid red;
+    
     background-image: url("./img/panier\ \(2\).png");
     background-size: cover;
     height: 50px;
@@ -59,7 +58,7 @@
     
 }
 .head_fin_insc{
-    border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +70,7 @@
     width: 150px;
 }
 .head_fin_secon{
-    border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +88,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
+    
     height: 400px;
     background-image: url("./img/610x\ \(4\)\(117\).jpeg");
     background-size: cover;
@@ -99,7 +98,7 @@
     font-size: 1.9em;
 }
 .corp1_acc_imgcrd{
-    border: 2px solid red;
+    
     height: 250px;
     width: 400px;
     background-image: url("./img/crd1-removebg-preview.png");
@@ -112,7 +111,7 @@
     height: 400px;
 }
 .corp2_acc_imgcrd{
-    border: 2px solid red;
+    
     background-image: url("./img/cb-relief-frontpic.webp");
     background-size: cover;
     height: 300px;
@@ -126,7 +125,7 @@
     background-color: white;
 }
 .corp3_acc{
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,7 +198,6 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    border: 2px solid yellow;
     background-color: black;
 }
 .foot_comm_txt{
@@ -372,7 +370,7 @@
 /**************accueil********accueil***********accueil**********accueil********/
 .mnacc{
     background-color: #2F2235;
-    border: 2px solid red;
+    
     height: 2000px;
     color: white;
 }
@@ -381,14 +379,13 @@
     font-size: 1.5em;
 }
 .inf_part1_cont{
-    border: 2px solid rgb(137, 175, 34);
+    
     height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .inf_part1{
-    border: 2px solid white;
     width: 100%;
     height: 700px;
     display: flex;
@@ -396,20 +393,22 @@
     align-items: center;
 }
 .inf_cont{
-    height: 500px;
-    border: 2px solid goldenrod;
+    height: 480px;
+    border: 3px solid #402f47;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
 }
 .inf_cont_txt{
-    border: 2px solid red;
+    border: 4px dotted #402f47;
     display: flex;
     justify-content: center;
     font-size: 1.1em;
+    width: 400px;
 }
 .inf_form{
-    border: 2px solid red;
+    background-color: #402f47;
     display: flex;
     justify-content:space-around;
     width: 550px;
@@ -422,36 +421,131 @@
     justify-content: space-around;
 }
 .cscl_cont{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-    border: 2px solid red;
-    height: 200px;
-    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #402f47;
+    height: 300px;
+    width: 350px;
+}
+.cscl_txt{
+    background-color: #37273f;
+    border-radius: 15px;
+    height: 40px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cscl_als{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cscl_al{
     display: flex;
-    justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid #402f47;
+    width: 200px;
 }
 .csclimg{
-    border: 2px solid red;
+    
+    background-image: url("./img/Le-Colorisme-et-la-Femme-Noire-Comment-le-Surmonter-en-6-points-naturalsaramaya-discrimination-cheveux-afro-racisme-voyage-afrique-communaute-coiffures-soin-1.png");
+    background-size: cover;
+    border-radius: 50px;
     height: 50px;
     width: 50px;
 }
 .cscl_lgtel{
-    border: 2px solid red;
+    
+    background-image: url("./img/telefono.png");
+    background-size: cover;
     height: 50px;
     width: 50px;
 }
 .cscl_lgmsg{
-    border: 2px solid red;
+    
+    background-image: url("./img/correo.png");
+    background-size: cover;
     height: 50px;
     width: 50px;
 }
 .inf_graph{
-    border: 2px solid #72aa3b;
+    background-image: url("./img/GIF_Cashlab.gif");
+    background-size: cover;
     height: 250px;
     width: 700px;
+}
+.inf_offr_cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.inf_offr_txt_cont{
+    
+    width: 100%;
+}
+.inf_offr_txt{
+    font-size: 4.5em;
+    text-align: center;
+    margin-right: 600px;
+}
+.inf_cart{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 800px;
+}
+.inf_cont_crd{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+.inf_crd1{
+    background-image: url("./img/second_carte_effect-removebg-preview.png");
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+    
+}
+.inf_crd2{
+    background-image: url("./img/crdba-removebg-preview.png");
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+}
+.inf_crd3{
+    background-image: url("./img/crdinf-removebg-preview.png");
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+}
+.inf_crd4{
+    background-image: url("./img/crdnsia-removebg-preview.png");
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+}
+
+.inf_voirlien{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2.2em;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #5B812E;
+    border-radius: 20px;
+    height: 60px;
+    width: 180px;
 }
