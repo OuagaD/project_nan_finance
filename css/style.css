@@ -558,6 +558,11 @@
 
 
 /**************transaction********transcaton***********transaction**********transacion********/
+.bod_trans{
+    height: 2800px;
+    background-color: #2F2235;
+    color: white;
+}
 .cont_trans_form{
     display: flex;
     justify-content: center;
@@ -663,4 +668,50 @@ hr{
     border: 2px solid #FFFFFF;
     width: 950px;
     height: 550px;
+}
+.trans_etp_detl{
+    font-size: 2em;
+}
+.trans_etp_cont{
+    display: flex;
+}
+.trans_etp{
+    display: flex;
+    flex-direction: column;
+}
+.trans_etp_img1{
+    height: 320px;
+    width: 300px;
+    background-image: url('./img/form.jpeg');
+    background-color: cover;
+}
+.trans_etp_img2{
+    height: 100px;
+    width: 150px;
+    background-image: url('./img/gmail-confirmation-lecture.jpeg');
+    background-color: cover;
+}
+.trans_etp_img3{
+    height: 100px;
+    width: 150px;
+    background-image: url('./img/Call-Centers-Africa-1024x667.png');
+    background-color: cover;
+}
+.trans_etp_img4{
+    height: 100px;
+    width: 150px;
+    background-image: url('./img/chargement.jpeg');
+    background-color: cover;
+}
+.trans_etp_img5{
+    height: 100px;
+    width: 150px;
+    background-image: url('./img/importance-prise-rdv-efficace-entreprise.jpeg');
+    background-color: cover;
+}
+.trans_etp_img6{
+    height: 100px;
+    width: 150px;
+    background-image: url('./img/lvr.jpeg');
+    background-color: cover;
 }
