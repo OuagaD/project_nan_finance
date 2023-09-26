@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #1d0827;
-    height: 70px;
+    height: 90px;
 }
 .head_fin_namelg{
     background-color: white;
@@ -31,27 +31,38 @@
 }
 .head_fin_menu{
     display: flex;
+    justify-content: space-around;
+    width: 250px;
+    
 }
 .head_fin_acc{
     
-    background-image: url("./img/maison.png");
+    background-image: url("./img/bouton-daccueil.png");
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+}
+.head_fin_acc:hover{
+    border-bottom: 2px solid #5B812E;
 }
 .head_fin_trans{
     
     background-image: url("./img/transaction\ \(1\).png");
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+}
+.head_fin_trans:hover{
+    border-bottom: 2px solid #5B812E;
 }
 .head_fin_pani{
-    
-    background-image: url("./img/panier\ \(2\).png");
+    background-image: url("./img/panieracc.png");
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+}
+.head_fin_pani:hover{
+    border-bottom: 2px solid #5B812E;
 }
 .head_fin_connex{
     display: flex;
@@ -65,8 +76,9 @@
     border-radius: 10px;
     margin-right: 10px;
     background-color: #5B812E;
+    font-size: 1.5em;
     color: white;
-    height: 25px;
+    height: 35px;
     width: 150px;
 }
 .head_fin_secon{
@@ -76,68 +88,78 @@
     align-items: center;
     border-radius: 10px;
     background-color: white;
+    font-size: 1.5em;
     color: #579709;
-    height: 25px;
+    height: 35px;
     width: 150px;
 }
 .corpsgnr1{
-    height: 1010px;
+    height: 1400px;
     background-color: #2F2235;
 }
 .corp1_acc{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    height: 400px;
+    height: 700px;
     background-image: url("./img/610x\ \(4\)\(117\).jpeg");
     background-size: cover;
 }
 .corp1_acc_txt{
-    color: #628e2c;
-    font-size: 1.9em;
+    -webkit-text-stroke: 1px #7a24a2;
+    color: #FFFFFF;
+    height: 350px;
+    font-size: 2em;
 }
 .corp1_acc_imgcrd{
-    
     height: 250px;
     width: 400px;
-    background-image: url("./img/crd1-removebg-preview.png");
+    background-image: url("./img/crdinf-removebg-preview.png");
     background-size: cover;
 }
 .corp2_acc{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 700px;
 }
 .corp2_acc_imgcrd{
-    
     background-image: url("./img/cb-relief-frontpic.webp");
     background-size: cover;
-    height: 300px;
-    width: 600px;
+    height: 500px;
+    width: 900px;
 }
 .corp2_acc_txt{
     color: white;
+    width: 550px;
+    font-size: 1.7em;
+    margin: 10px;
 }
 .corpsgnr2{
-    height: 1010px;
-    background-color: white;
-}
-.corp3_acc{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 850px;
+    background-color: white;
+}
+.corp3_acc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 1200px;
 }
 .corp3_acc_txt{
     color:#2F2235;
-    font-size: 2em;
+    font-size: 4em;
+    margin-bottom: 20px;
 }
 .corp3_acc_cont{
-    border:2px solid purple
+    height: 600px;
+    font-size: 1.5em;
+    color: #1d0827;
 }
 .corp3_acc_img{
     height: 180px;
@@ -148,7 +170,7 @@
     background-size: cover;
 }
 .corp3_acc_imgconfim{
-    background-image: url("./img/gmail-confirmation-lecture.jpeg");
+    background-image: url("./img/imgconfmail.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
@@ -168,16 +190,17 @@
     background-size: cover;
 }
 .corp3_acc_imgform{
-    background-image: url("./img/form.jpeg");
+    background-image: url("./img/imgform.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
 .corp3_acc_imgcharg{
-    background-image: url("./img/chargement.jpeg");
+    background-image: url("./img/imgatt.jpeg");
     background-size: cover;
+    border-radius: 20px;
 }
 .corp3_acc_imglvr{
-    background-image: url("./img/lvr.jpeg");
+    background-image: url("./img/imglvr.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
@@ -197,24 +220,43 @@
 .foot{
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     background-color: black;
+    height: 180px;
+}
+.foot_comm{
+    padding: 5px;
 }
 .foot_comm_txt{
     color: white;
 }
+.foot_comm_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .foot_cop{
     display: flex;
     flex-direction: column;
+    justify-content: end;
     align-items: center;
     color: white;
+    height: 120px;
 }
 .foot_rs_txt{
     color: white;
 }
+.foot_rs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .foot_rs_lg{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
 }
 .foot_rs_lg_inst{
     background-image: url("./img/instagram\ \(1\).png");
@@ -253,42 +295,50 @@
     border-radius: 30px;
     background-color: #2F2235;
     margin: 80px auto;
-    height: 450px;
-    width: 350px;
-    box-shadow: 10px 10px 5px 0px rgba(206, 203, 203, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(68, 49, 83, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(238, 226, 226, 0.75);
+    height: 650px;
+    width: 430px;
+    box-shadow: 5px 5px 10px 10px #7e7385;
 }
 .fmsecon_lguser_cont{
     display: flex;
     justify-content: center;
 }
 .fmsecon_lguser{
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
+    margin-bottom: -15px;
     background-image: url('./img/utilisateur\ \(1\).png');
     background-size: cover;
 }
 .fmsecon_txt{
+    font-size: 2.7em;
     color: white;
 }
 .fmsecon_cont_idmt{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 220px;
+    height: 350px;
+    width: 330px;
+    font-size: 1.6em;
+}
+.fmsecon_cont_idmt_sl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
 }
 .fmsecon_cont_idmt1{
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 320px;
     border-radius: 8px;
     border: none;
     font-size: 1.1em;
     color: #2F2235;
 }
 .fmsecon_cont_idmt2{
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 320px;
     border-radius: 8px;
     border: none;
     font-size: 1.1em;
@@ -301,16 +351,20 @@
 .fmsecon_subm{
     display: flex;
     justify-content: center;
+
 }
 .fmsecon_subm_{
     border: none;
+}
+.fmsecon_cont_vstxtsintxt{
+    height: 60px;
 }
 .fmsecon_vstxt{
     color: rgba(255, 255, 255, 0.444);
 }
 .fmsecon_sintxt{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 
@@ -321,6 +375,7 @@
 /**************inscription********inscription***********inscription**********inscription********/
 .bodinsc{
     background-color: #2f223549;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,20 +386,22 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 450px;
-    width: 350px;
+    height: 650px;
+    width: 500px;
+    border-radius: 10px;
     background-color: #2F2235;
 }
 .insc_txt{
     color: white;
+    font-size: 3.5em;
 }
 .fminsc_txt_cont{
-    height: 35px;
-    width: 300px;
+    height: 45px;
+    width: 400px;
     border-radius: 10px;
     background-color: white;
     color: #2F2235;
-    font-size: 1.1em;
+    font-size: 1.5em;
     border:none;
 }
 .btn_insc_cont{
@@ -353,8 +410,9 @@
     justify-content: flex-end;
 }
 .btn_insc{
-    height: 40px;
-    width: 140px;
+    height: 55px;
+    width: 160px;
+    font-size: 1.2em;
     border-radius: 10px;
     border:none;
     background-color: #5B812E;
@@ -371,6 +429,12 @@
 
 
 /**************accueil********accueil***********accueil**********accueil********/
+.head_fin_accselc{
+    background-image: url("./img/bouton-daccueilselc.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
 .mnacc{
     background-color: #2F2235;
     
@@ -558,8 +622,14 @@
 
 
 /**************transaction********transcaton***********transaction**********transacion********/
+.head_fin_transselc{
+    background-image: url("./img/transactionselc.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
 .bod_trans{
-    height: 2800px;
+    height: 4500px;
     background-color: #2F2235;
     color: white;
 }
@@ -567,23 +637,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 950px;
 }
 .trans_form_ps{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #B591BE;
-    width: 350px;
-    height: 600px;
+    width: 550px;
+    height: 800px;
 }
 .trans_form{
     color: #2F2235;
+    font-size: 1.8em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 550px;
-    width: 300px;
+    height: 750px;
+    width: 480px;
 }
 .trans_form_ps1{
     display: flex;
@@ -600,12 +671,13 @@ hr{
 }
 .trans_form_modpay_txt{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .trans_form_modpay_txtil{
     display: inline-block;
     background-color: white;
-    width: 85px;
+    width: 110px;
     height: 1px;
 }
 .trans_form_lgrs{
@@ -649,11 +721,13 @@ hr{
     justify-content: space-around;
 }
 .trans_corpsgnr2{
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 }
 .trans_corp3_acc_txt{
     color:#FFFFFF;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 .trans_corp3_acc_cont{
     display: flex;
@@ -661,57 +735,105 @@ hr{
     align-items: center;
     width: 1000px;
     height: 600px;
-    border: 2px solid #579709;
     background-color: #B591BE;
 }
 .trans_corp3_acc_table{
-    border: 2px solid #FFFFFF;
     width: 950px;
     height: 550px;
 }
 .trans_etp_detl{
+    margin: 20px;
     font-size: 2em;
 }
 .trans_etp_cont{
     display: flex;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .trans_etp{
     display: flex;
     flex-direction: column;
 }
+.trans_etp_txtdesc{
+    margin-left: 20px;
+}
 .trans_etp_img1{
-    height: 320px;
-    width: 300px;
-    background-image: url('./img/form.jpeg');
-    background-color: cover;
+    height: 350px;
+    width: 450px;
+    background-image: url('./img/imgform.jpeg');
+    background-size: cover;
 }
 .trans_etp_img2{
-    height: 100px;
-    width: 150px;
-    background-image: url('./img/gmail-confirmation-lecture.jpeg');
-    background-color: cover;
+    height: 350px;
+    width: 450px;
+    background-image: url('./img/imgconfmail.jpeg');
+    background-size: cover;
 }
 .trans_etp_img3{
-    height: 100px;
-    width: 150px;
+    height: 350px;
+    width: 450px;
     background-image: url('./img/Call-Centers-Africa-1024x667.png');
-    background-color: cover;
+    background-size: cover;
 }
 .trans_etp_img4{
-    height: 100px;
-    width: 150px;
-    background-image: url('./img/chargement.jpeg');
-    background-color: cover;
+    height: 350px;
+    width: 450px;
+    background-image: url('./img/imgatt.jpeg');
+    background-size: cover;
 }
 .trans_etp_img5{
-    height: 100px;
-    width: 150px;
+    height: 350px;
+    width: 450px;
     background-image: url('./img/importance-prise-rdv-efficace-entreprise.jpeg');
-    background-color: cover;
+    background-size: cover;
 }
 .trans_etp_img6{
-    height: 100px;
+    height: 350px;
+    width: 450px;
+    background-image: url('./img/imglvr.jpeg');
+    background-size: cover;
+}
+
+
+/**************panier********panier***********panier**********panier********/
+
+.bod_panier{
+    background-color: #2F2235;
+    height: 1200px;
+
+}
+.panier_alg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panier_contlgtxt{
+    display: flex;
+    flex-direction: column;
     width: 150px;
-    background-image: url('./img/lvr.jpeg');
-    background-color: cover;
+    border: 50px solid #2F2235;
+}
+.panier_imglg{
+    background-image: url('./img/panier\ \(2\).png');
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+.panier_txt{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+.panier_btn_cont{
+    height: 400px;
+    display: flex;
+    align-items: end;
+}
+.panier_btn{
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #2F2235;
+    height: 60px;
+    width: 180px;
 }
