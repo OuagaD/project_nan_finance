@@ -277,6 +277,86 @@
     width: 35px;
 }
 
+@media screen and (max-width: 435px) {
+    .corp1_acc{
+        display: flex;
+        align-items: flex-start;
+    }
+    .corp1_acc_txt{   
+        font-size: 1.9em;
+        margin-top: 30px;
+    }
+    .corp1_acc_imgcrd{
+        display: none;
+    }
+    .corpsgnr2{
+        height: 700px;
+    }
+    .corp3_acc_table{
+        
+        width: 730px;
+        height: 500px;
+        font-size: 0.7em;
+    }
+    .corp3_acc_img{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgfldc{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgconfim{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgfld{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imginfsupp{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgfldr{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgform{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgcharg{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imglvr{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgflg{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgrdv{
+        height: 100px;
+        width: 100px;
+    }
+    .corp3_acc_imgflgr{
+        height: 100px;
+        width: 100px;
+    }
+    .comm_ind{
+        height: 50px;
+        width: 180px;
+    }
+    .btn_com{
+        border: 2px solid #6b427e;
+    }
+    .foot_cop{
+        font-size: 0.7em;
+    }
+}
 
 
 
