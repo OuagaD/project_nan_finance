@@ -1,7 +1,9 @@
 *{
     margin: 0;
 }
-
+body{
+    margin: 0;
+}
 .head_fin{
     display: flex;
     justify-content: space-around;
@@ -165,6 +167,42 @@
     height: 180px;
     width: 250px;
 }
+.mdtxt1{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
+.mdtxt2{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
+.mdtxt3{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
+.mdtxt4{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
+.mdtxt5{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
+.mdtxt6{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 115px;
+}
 .corp3_acc_imgfldc{
     background-image: url("./img/fleche-vers-le-bas-courbe\ \(2\).png");
     background-size: cover;
@@ -235,6 +273,14 @@
     flex-direction: column;
     align-items: flex-end;
 }
+.comm_txtarea_ind{
+    color: #2F2235;
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    border-radius: 10px; 
+    font-size: 1.3em;
+}
 .foot_cop{
     display: flex;
     flex-direction: column;
@@ -277,84 +323,295 @@
     width: 35px;
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 500px) {
+    .head_fin{
+        height: 40px;
+    }
+    .head_fin_namelg{
+        border-radius: 7px;
+        height: 22px;
+        width: 45px;
+    }
+    .head_fin_name{
+        font-size: 0.5em;
+        /* width: 100px;
+        height: 20px; */
+    }
+    .head_fin_lg{
+        background-image: url("./img/finance-logo1-removebg-preview.png");
+        background-size: cover;
+        
+        height: 20px;
+        width: 20px;
+    }
+    .head_fin_menu{
+         
+        width: 130px;
+    }
+    .head_fin_acc{
+        background-image: url("./img/bouton-daccueil.png");
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+    }
+    .head_fin_acc:hover{
+        border-bottom: 2px solid #5B812E;
+    }
+    .head_fin_trans{
+        
+        background-image: url("./img/transaction\ \(1\).png");
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+    }
+    .head_fin_trans:hover{
+        border-bottom: 2px solid #5B812E;
+    }
+    .head_fin_pani{
+        background-image: url("./img/panieracc.png");
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+    }
+    .head_fin_pani:hover{
+        border-bottom: 2px solid #5B812E;
+    }
+    .head_fin_connex{
+       
+    }
+    .head_fin_insc{
+        font-size: 0.5em;
+        border-radius: 5px;
+        height: 20px;
+        width: 50px;
+    }
+    .head_fin_secon{
+        font-size: 0.5em;
+        border-radius: 5px;
+        height: 20px;
+        width: 50px;
+    }
+    .corpsgnr1{
+        height: 650px;
+        
+    }
     .corp1_acc{
+        
         display: flex;
         align-items: flex-start;
+        height: 300px;
     }
-    .corp1_acc_txt{   
-        font-size: 1.9em;
-        margin-top: 30px;
+    .corp1_acc_txt{
+        
+        -webkit-text-stroke: 0px;
+        height: 50px;
+        font-size: 1.2em;
+        margin-top: 20px;
     }
     .corp1_acc_imgcrd{
         display: none;
     }
-    .corpsgnr2{
-        height: 700px;
+    .corp2_acc{
+       height: 300px;
     }
-    .corp3_acc_table{
+    .corp2_acc_imgcrd{
+        background-image: url("./img/cb-relief-frontpic.webp");
+        background-size: cover;
+        height: 180px;
+        width: 280px;
+    }
+    .corp2_acc_txt{
         
-        width: 730px;
-        height: 500px;
-        font-size: 0.7em;
+        width: 180px;
+        font-size: 0.6em;
+        margin: 10px;
+    }
+    .corpsgnr2{
+        
+        height: 350px;
+    }
+    .corp3_acc{
+        
+        height: 300px;
+        width: 300px;
+    }
+    .corp3_acc_txt{
+        font-size: 1.8em;
+        
+    }
+    .corp3_acc_cont{
+        
+        height: 600px;
+        font-size: 0.5em;
+    }
+    .mdtxt1{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
+    }
+    .mdtxt2{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
+    }
+    .mdtxt3{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
+    }
+    .mdtxt4{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
+    }
+    .mdtxt5{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
+    }
+    .mdtxt6{
+        
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        top: 35px;
     }
     .corp3_acc_img{
-        height: 100px;
-        width: 100px;
+        
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgfldc{
-        height: 100px;
-        width: 100px;
+
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgconfim{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgfld{
-        height: 100px;
-        width: 100px;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imginfsupp{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgfldr{
-        height: 100px;
-        width: 100px;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgform{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgcharg{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imglvr{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgflg{
-        height: 100px;
-        width: 100px;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgrdv{
-        height: 100px;
-        width: 100px;
+        border: 2px solid #2F2235;
+        height: 55px;
+        width: 55px;
     }
     .corp3_acc_imgflgr{
-        height: 100px;
+        height: 55px;
+        width: 55px;
+    }
+    .foot{
+        
+        height: 150px;
+        font-size: 0.5em;
+    }
+    .foot_comm{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 100px;
+        padding: 5px;
+    }
+    .foot_comm_txt{
+        color: white;
+    }
+    .foot_comm_cont{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
     .comm_ind{
-        height: 50px;
-        width: 180px;
+        height: 30px;
+        width: 100px;
+        
     }
-    .btn_com{
-        border: 2px solid #6b427e;
+    .comm_txtarea_ind{
+        color: #2F2235;
+        border: #1d0827;
+        height: 20px;
+        width: 55px;
+        text-align: center;
+        border-radius: 5px; 
+        font-size: 1.3em;
     }
     .foot_cop{
-        font-size: 0.7em;
+        position: absolute;
+        
+        height: 140px;
+        font-size: 0.01em;
+    }
+    .foot_rs_txt{
+        
+    }
+    .foot_rs{
+        
+        width: 70px;
+        height: 30px;
+    }
+    .foot_rs_lg{
+        
+        width: 70px;
+    }
+    .foot_rs_lg_inst{
+        height: 15px;
+        width: 15px;
+    }
+    .foot_rs_lg_fb{
+        height: 15px;
+        width: 15px;
+    }
+    .foot_rs_lg_in{
+        height: 15px;
+        width: 15px;
     }
 }
 
