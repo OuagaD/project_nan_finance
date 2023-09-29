@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     margin: 0;
 }
-.head_fin{
+
+.head_fin {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1d0827;
     height: 90px;
 }
-.head_fin_namelg{
+
+.head_fin_namelg {
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -20,58 +23,69 @@ body{
     height: 60px;
     width: 150px;
 }
-.head_fin_name{
+
+.head_fin_name {
     color: #5B812E;
     font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.head_fin_lg{
+
+.head_fin_lg {
     background-image: url("./img/finance-logo1-removebg-preview.png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.head_fin_menu{
+
+.head_fin_menu {
     display: flex;
     justify-content: space-around;
     width: 250px;
-    
+
 }
-.head_fin_acc{
-    
+
+.head_fin_acc {
+
     background-image: url("./img/bouton-daccueil.png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.head_fin_acc:hover{
+
+.head_fin_acc:hover {
     border-bottom: 2px solid #5B812E;
 }
-.head_fin_trans{
-    
+
+.head_fin_trans {
+
     background-image: url("./img/transaction\ \(1\).png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.head_fin_trans:hover{
+
+.head_fin_trans:hover {
     border-bottom: 2px solid #5B812E;
 }
-.head_fin_pani{
+
+.head_fin_pani {
     background-image: url("./img/panieracc.png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.head_fin_pani:hover{
+
+.head_fin_pani:hover {
     border-bottom: 2px solid #5B812E;
 }
-.head_fin_connex{
+
+.head_fin_connex {
     display: flex;
-    
+
 }
-.head_fin_insc{
-    
+
+.head_fin_insc {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,8 +97,9 @@ body{
     height: 35px;
     width: 150px;
 }
-.head_fin_secon{
-    
+
+.head_fin_secon {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,11 +110,13 @@ body{
     height: 35px;
     width: 150px;
 }
-.corpsgnr1{
+
+.corpsgnr1 {
     height: 1400px;
     background-color: #2F2235;
 }
-.corp1_acc{
+
+.corp1_acc {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,37 +124,43 @@ body{
     background-image: url("./img/610x\ \(4\)\(117\).jpeg");
     background-size: cover;
 }
-.corp1_acc_txt{
+
+.corp1_acc_txt {
     -webkit-text-stroke: 1px #7a24a2;
     color: #FFFFFF;
     height: 350px;
     font-size: 2em;
 }
-.corp1_acc_imgcrd{
+
+.corp1_acc_imgcrd {
     height: 250px;
     width: 400px;
     background-image: url("./img/crdinf-removebg-preview.png");
     background-size: cover;
 }
-.corp2_acc{
+
+.corp2_acc {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
 }
-.corp2_acc_imgcrd{
+
+.corp2_acc_imgcrd {
     background-image: url("./img/cb-relief-frontpic.webp");
     background-size: cover;
     height: 500px;
     width: 900px;
 }
-.corp2_acc_txt{
+
+.corp2_acc_txt {
     color: white;
     width: 550px;
     font-size: 1.7em;
     margin: 10px;
 }
-.corpsgnr2{
+
+.corpsgnr2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +168,8 @@ body{
     height: 850px;
     background-color: white;
 }
-.corp3_acc{
+
+.corp3_acc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,135 +177,161 @@ body{
     height: 750px;
     width: 1200px;
 }
-.corp3_acc_txt{
-    color:#2F2235;
+
+.corp3_acc_txt {
+    color: #2F2235;
     font-size: 4em;
     margin-bottom: 20px;
 }
-.corp3_acc_cont{
+
+.corp3_acc_cont {
     height: 600px;
     font-size: 1.5em;
     color: #1d0827;
 }
-.corp3_acc_img{
+
+.corp3_acc_img {
     height: 180px;
     width: 250px;
 }
-.mdtxt1{
+
+.mdtxt1 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.mdtxt2{
+
+.mdtxt2 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.mdtxt3{
+
+.mdtxt3 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.mdtxt4{
+
+.mdtxt4 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.mdtxt5{
+
+.mdtxt5 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.mdtxt6{
+
+.mdtxt6 {
     position: relative;
     display: block;
     text-align: center;
     top: 115px;
 }
-.corp3_acc_imgfldc{
+
+.corp3_acc_imgfldc {
     background-image: url("./img/fleche-vers-le-bas-courbe\ \(2\).png");
     background-size: cover;
 }
-.corp3_acc_imgconfim{
+
+.corp3_acc_imgconfim {
     background-image: url("./img/imgconfmail.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imgfld{
+
+.corp3_acc_imgfld {
     background-image: url("./img/longue-fleche-pointant-vers-la-droite.png");
     background-size: cover;
 }
-.corp3_acc_imginfsupp{
+
+.corp3_acc_imginfsupp {
     background-image: url("./img/Call-Centers-Africa-1024x667.png");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imgfldr{
+
+.corp3_acc_imgfldr {
     height: 170px;
     width: 240px;
     background-image: url("./img/fleche-vers-le-bas-courbe.png");
     background-size: cover;
 }
-.corp3_acc_imgform{
+
+.corp3_acc_imgform {
     background-image: url("./img/imgform.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imgcharg{
+
+.corp3_acc_imgcharg {
     background-image: url("./img/imgatt.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imglvr{
+
+.corp3_acc_imglvr {
     background-image: url("./img/imglvr.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imgflg{
+
+.corp3_acc_imgflg {
     background-image: url("./img/longue-fleche-pointant-vers-la-droite\ \(1\).png");
     background-size: cover;
 }
-.corp3_acc_imgrdv{
+
+.corp3_acc_imgrdv {
     background-image: url("./img/importance-prise-rdv-efficace-entreprise.jpeg");
     background-size: cover;
     border-radius: 20px;
 }
-.corp3_acc_imgflgr{
+
+.corp3_acc_imgflgr {
     background-image: url("./img/fleche-vers-le-bas-courbe\ \(1\).png");
-    background-size: cover; 
+    background-size: cover;
 }
-.foot{
+
+.foot {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
     height: 180px;
 }
-.foot_comm{
+
+.foot_comm {
     padding: 5px;
 }
-.foot_comm_txt{
+
+.foot_comm_txt {
     color: white;
 }
-.foot_comm_cont{
+
+.foot_comm_cont {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.comm_txtarea_ind{
+
+.comm_txtarea_ind {
     color: #2F2235;
     height: 35px;
     width: 110px;
     text-align: center;
-    border-radius: 10px; 
+    border-radius: 10px;
     font-size: 1.3em;
 }
-.foot_cop{
+
+.foot_cop {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -289,34 +339,40 @@ body{
     color: white;
     height: 120px;
 }
-.foot_rs_txt{
+
+.foot_rs_txt {
     color: white;
 }
-.foot_rs{
+
+.foot_rs {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.foot_rs_lg{
+
+.foot_rs_lg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 50px;
 }
-.foot_rs_lg_inst{
+
+.foot_rs_lg_inst {
     background-image: url("./img/instagram\ \(1\).png");
     background-size: cover;
     height: 35px;
     width: 35px;
 }
-.foot_rs_lg_fb{
+
+.foot_rs_lg_fb {
     background-image: url("./img/facebook\ \(1\).png");
     background-size: cover;
     height: 35px;
     width: 35px;
 }
-.foot_rs_lg_in{
+
+.foot_rs_lg_in {
     background-image: url("./img/linkedin.png");
     background-size: cover;
     height: 35px;
@@ -324,127 +380,150 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-    .head_fin{
+    .head_fin {
         height: 40px;
     }
-    .head_fin_namelg{
+
+    .head_fin_namelg {
         border-radius: 7px;
         height: 22px;
         width: 45px;
     }
-    .head_fin_name{
+
+    .head_fin_name {
         font-size: 0.5em;
         /* width: 100px;
         height: 20px; */
     }
-    .head_fin_lg{
+
+    .head_fin_lg {
         background-image: url("./img/finance-logo1-removebg-preview.png");
         background-size: cover;
-        
+
         height: 20px;
         width: 20px;
     }
-    .head_fin_menu{
-         
+
+    .head_fin_menu {
+
         width: 130px;
     }
-    .head_fin_acc{
+
+    .head_fin_acc {
         background-image: url("./img/bouton-daccueil.png");
         background-size: cover;
         height: 20px;
         width: 20px;
     }
-    .head_fin_acc:hover{
+
+    .head_fin_acc:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_trans{
-        
+
+    .head_fin_trans {
+
         background-image: url("./img/transaction\ \(1\).png");
         background-size: cover;
         height: 20px;
         width: 20px;
     }
-    .head_fin_trans:hover{
+
+    .head_fin_trans:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_pani{
+
+    .head_fin_pani {
         background-image: url("./img/panieracc.png");
         background-size: cover;
         height: 20px;
         width: 20px;
     }
-    .head_fin_pani:hover{
+
+    .head_fin_pani:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_connex{
-       
-    }
-    .head_fin_insc{
+
+    .head_fin_connex {}
+
+    .head_fin_insc {
         font-size: 0.5em;
         border-radius: 5px;
         height: 20px;
         width: 50px;
     }
-    .head_fin_secon{
+
+    .head_fin_secon {
         font-size: 0.5em;
         border-radius: 5px;
         height: 20px;
         width: 50px;
     }
-    .corpsgnr1{
+
+    .corpsgnr1 {
         height: 650px;
-        
+
     }
-    .corp1_acc{
-        
+
+    .corp1_acc {
+
         display: flex;
         align-items: flex-start;
         height: 300px;
     }
-    .corp1_acc_txt{
-        
+
+    .corp1_acc_txt {
+
         -webkit-text-stroke: 0px;
         height: 50px;
         font-size: 1.2em;
         margin-top: 20px;
     }
-    .corp1_acc_imgcrd{
+
+    .corp1_acc_imgcrd {
         display: none;
     }
-    .corp2_acc{
-       height: 300px;
+
+    .corp2_acc {
+        height: 300px;
     }
-    .corp2_acc_imgcrd{
+
+    .corp2_acc_imgcrd {
         background-image: url("./img/cb-relief-frontpic.webp");
         background-size: cover;
         height: 180px;
         width: 280px;
     }
-    .corp2_acc_txt{
-        
+
+    .corp2_acc_txt {
+
         width: 180px;
         font-size: 0.6em;
         margin: 10px;
     }
-    .corpsgnr2{
-        
+
+    .corpsgnr2 {
+
         height: 350px;
     }
-    .corp3_acc{
-        
+
+    .corp3_acc {
+
         height: 300px;
         width: 300px;
     }
-    .corp3_acc_txt{
+
+    .corp3_acc_txt {
         font-size: 1.8em;
-        
+
     }
-    .corp3_acc_cont{
-        
+
+    .corp3_acc_cont {
+
         height: 600px;
         font-size: 0.7em;
     }
-    .mdtxt1{
+
+    .mdtxt1 {
         position: relative;
         display: block;
         text-align: center;
@@ -452,7 +531,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt2{
+
+    .mdtxt2 {
         position: relative;
         display: block;
         text-align: center;
@@ -460,7 +540,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt3{
+
+    .mdtxt3 {
         position: relative;
         display: block;
         text-align: center;
@@ -468,7 +549,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt4{
+
+    .mdtxt4 {
         position: relative;
         display: block;
         text-align: center;
@@ -476,7 +558,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt5{
+
+    .mdtxt5 {
         position: relative;
         display: block;
         text-align: center;
@@ -484,7 +567,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt6{
+
+    .mdtxt6 {
         position: relative;
         display: block;
         text-align: center;
@@ -492,124 +576,149 @@ body{
         top: 45px;
         width: 50px;
     }
-    .corp3_acc_img{
-        
-        height: 55px;
-        width: 55px;
-    }
-    .corp3_acc_imgfldc{
+
+    .corp3_acc_img {
 
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgconfim{
+
+    .corp3_acc_imgfldc {
+
+        height: 55px;
+        width: 55px;
+    }
+
+    .corp3_acc_imgconfim {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgfld{
+
+    .corp3_acc_imgfld {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imginfsupp{
+
+    .corp3_acc_imginfsupp {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgfldr{
+
+    .corp3_acc_imgfldr {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgform{
+
+    .corp3_acc_imgform {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgcharg{
+
+    .corp3_acc_imgcharg {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imglvr{
+
+    .corp3_acc_imglvr {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgflg{
+
+    .corp3_acc_imgflg {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgrdv{
+
+    .corp3_acc_imgrdv {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgflgr{
+
+    .corp3_acc_imgflgr {
         height: 55px;
         width: 55px;
     }
-    .foot{
-        
+
+    .foot {
+
         height: 150px;
         font-size: 0.5em;
     }
-    .foot_comm{
+
+    .foot_comm {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 100px;
         padding: 5px;
     }
-    .foot_comm_txt{
+
+    .foot_comm_txt {
         color: white;
     }
-    .foot_comm_cont{
-        
+
+    .foot_comm_cont {
+
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
-    .comm_ind{
+
+    .comm_ind {
         height: 30px;
         width: 100px;
-        
+
     }
-    .comm_txtarea_ind{
+
+    .comm_txtarea_ind {
         color: #2F2235;
         border: #1d0827;
         height: 20px;
         width: 55px;
         text-align: center;
-        border-radius: 5px; 
+        border-radius: 5px;
         font-size: 1.3em;
     }
-    .foot_cop{
+
+    .foot_cop {
         position: absolute;
-        
+
         height: 140px;
         font-size: 0.01em;
     }
-    .foot_rs_txt{
+
+    .foot_rs_txt {
         width: 90px;
         text-align: center;
     }
-    .foot_rs{
+
+    .foot_rs {
         width: 90px;
         height: 30px;
     }
-    .foot_rs_lg{
-        
+
+    .foot_rs_lg {
+
         width: 70px;
     }
-    .foot_rs_lg_inst{
+
+    .foot_rs_lg_inst {
         height: 15px;
         width: 15px;
     }
-    .foot_rs_lg_fb{
+
+    .foot_rs_lg_fb {
         height: 15px;
         width: 15px;
     }
-    .foot_rs_lg_in{
+
+    .foot_rs_lg_in {
         height: 15px;
         width: 15px;
     }
@@ -617,127 +726,149 @@ body{
 
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
-    .head_fin{
+    .head_fin {
         height: 45px;
     }
-    .head_fin_namelg{
+
+    .head_fin_namelg {
         border-radius: 10px;
         height: 30px;
         width: 85px;
     }
-    .head_fin_name{
+
+    .head_fin_name {
         font-size: 1.5em;
-        color: red;
         /* width: 100px;
         height: 20px; */
     }
-    .head_fin_lg{
-        
+
+    .head_fin_lg {
+
         height: 30px;
         width: 30px;
     }
-    .head_fin_menu{
-         
+
+    .head_fin_menu {
+
         width: 130px;
     }
-    .head_fin_acc{
+
+    .head_fin_acc {
         background-image: url("./img/bouton-daccueil.png");
         background-size: cover;
         height: 35px;
         width: 35px;
     }
-    .head_fin_acc:hover{
+
+    .head_fin_acc:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_trans{
-        
+
+    .head_fin_trans {
+
         background-image: url("./img/transaction\ \(1\).png");
         background-size: cover;
         height: 35px;
         width: 35px;
     }
-    .head_fin_trans:hover{
+
+    .head_fin_trans:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_pani{
+
+    .head_fin_pani {
         background-image: url("./img/panieracc.png");
         background-size: cover;
         height: 35px;
         width: 35px;
     }
-    .head_fin_pani:hover{
+
+    .head_fin_pani:hover {
         border-bottom: 2px solid #5B812E;
     }
-    .head_fin_connex{
-       
-    }
-    .head_fin_insc{
+
+    .head_fin_connex {}
+
+    .head_fin_insc {
         font-size: 1em;
         border-radius: 7px;
         height: 25px;
         width: 80px;
     }
-    .head_fin_secon{
+
+    .head_fin_secon {
         font-size: 1em;
         border-radius: 7px;
         height: 25px;
         width: 90px;
     }
-    .corpsgnr1{
+
+    .corpsgnr1 {
         height: 750px;
-        
+
     }
-    .corp1_acc{
-        
+
+    .corp1_acc {
+
         display: flex;
         align-items: flex-start;
         height: 400px;
     }
-    .corp1_acc_txt{
-        
+
+    .corp1_acc_txt {
+
         -webkit-text-stroke: 0px;
         height: 50px;
         font-size: 1.5em;
         margin-top: 20px;
     }
-    .corp1_acc_imgcrd{
+
+    .corp1_acc_imgcrd {
         width: 150px;
         height: 100px;
     }
-    .corp2_acc{
-       height: 300px;
+
+    .corp2_acc {
+        height: 300px;
     }
-    .corp2_acc_imgcrd{
+
+    .corp2_acc_imgcrd {
         background-image: url("./img/cb-relief-frontpic.webp");
         background-size: cover;
         height: 260px;
         width: 470px;
     }
-    .corp2_acc_txt{
-        
+
+    .corp2_acc_txt {
+
         width: 270px;
         font-size: 1em;
         margin: 10px;
     }
-    .corpsgnr2{
-        
+
+    .corpsgnr2 {
+
         height: 650px;
     }
-    .corp3_acc{
-        
+
+    .corp3_acc {
+
         height: 300px;
         width: 300px;
     }
-    .corp3_acc_txt{
+
+    .corp3_acc_txt {
         font-size: 1.8em;
-        
+
     }
-    .corp3_acc_cont{
-        
+
+    .corp3_acc_cont {
+
         height: 600px;
         font-size: 0.7em;
     }
-    .mdtxt1{
+
+    .mdtxt1 {
         position: relative;
         display: block;
         text-align: center;
@@ -745,7 +876,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt2{
+
+    .mdtxt2 {
         position: relative;
         display: block;
         text-align: center;
@@ -753,7 +885,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt3{
+
+    .mdtxt3 {
         position: relative;
         display: block;
         text-align: center;
@@ -761,7 +894,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt4{
+
+    .mdtxt4 {
         position: relative;
         display: block;
         text-align: center;
@@ -769,7 +903,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt5{
+
+    .mdtxt5 {
         position: relative;
         display: block;
         text-align: center;
@@ -777,7 +912,8 @@ body{
         top: 45px;
         width: 50px;
     }
-    .mdtxt6{
+
+    .mdtxt6 {
         position: relative;
         display: block;
         text-align: center;
@@ -785,124 +921,149 @@ body{
         top: 45px;
         width: 50px;
     }
-    .corp3_acc_img{
-        
-        height: 55px;
-        width: 55px;
-    }
-    .corp3_acc_imgfldc{
+
+    .corp3_acc_img {
 
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgconfim{
+
+    .corp3_acc_imgfldc {
+
+        height: 55px;
+        width: 55px;
+    }
+
+    .corp3_acc_imgconfim {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgfld{
+
+    .corp3_acc_imgfld {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imginfsupp{
+
+    .corp3_acc_imginfsupp {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgfldr{
+
+    .corp3_acc_imgfldr {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgform{
+
+    .corp3_acc_imgform {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgcharg{
+
+    .corp3_acc_imgcharg {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imglvr{
+
+    .corp3_acc_imglvr {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgflg{
+
+    .corp3_acc_imgflg {
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgrdv{
+
+    .corp3_acc_imgrdv {
         border: 2px solid #2F2235;
         height: 55px;
         width: 55px;
     }
-    .corp3_acc_imgflgr{
+
+    .corp3_acc_imgflgr {
         height: 55px;
         width: 55px;
     }
-    .foot{
-        
+
+    .foot {
+
         height: 150px;
         font-size: 0.5em;
     }
-    .foot_comm{
+
+    .foot_comm {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 100px;
         padding: 5px;
     }
-    .foot_comm_txt{
+
+    .foot_comm_txt {
         color: white;
     }
-    .foot_comm_cont{
-        
+
+    .foot_comm_cont {
+
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
-    .comm_ind{
+
+    .comm_ind {
         height: 30px;
         width: 100px;
-        
+
     }
-    .comm_txtarea_ind{
+
+    .comm_txtarea_ind {
         color: #2F2235;
         border: #1d0827;
         height: 20px;
         width: 55px;
         text-align: center;
-        border-radius: 5px; 
+        border-radius: 5px;
         font-size: 1.3em;
     }
-    .foot_cop{
+
+    .foot_cop {
         position: absolute;
-        
+
         height: 140px;
         font-size: 0.01em;
     }
-    .foot_rs_txt{
+
+    .foot_rs_txt {
         width: 90px;
         text-align: center;
     }
-    .foot_rs{
+
+    .foot_rs {
         width: 90px;
         height: 30px;
     }
-    .foot_rs_lg{
-        
+
+    .foot_rs_lg {
+
         width: 70px;
     }
-    .foot_rs_lg_inst{
+
+    .foot_rs_lg_inst {
         height: 25px;
         width: 25px;
     }
-    .foot_rs_lg_fb{
+
+    .foot_rs_lg_fb {
         height: 25px;
         width: 25px;
     }
-    .foot_rs_lg_in{
+
+    .foot_rs_lg_in {
         height: 25px;
         width: 25px;
     }
@@ -915,10 +1076,11 @@ body{
 
 
 /**************seconnecter********seconnecter***********seconnecter**********seconnecter********/
-.bodsecon{
+.bodsecon {
     background-color: #2f223549;
 }
-.fmsecon{
+
+.fmsecon {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -930,22 +1092,26 @@ body{
     width: 430px;
     box-shadow: 5px 5px 10px 10px #7e7385;
 }
-.fmsecon_lguser_cont{
+
+.fmsecon_lguser_cont {
     display: flex;
     justify-content: center;
 }
-.fmsecon_lguser{
+
+.fmsecon_lguser {
     height: 130px;
     width: 130px;
     margin-bottom: -15px;
     background-image: url('./img/utilisateur\ \(1\).png');
     background-size: cover;
 }
-.fmsecon_txt{
+
+.fmsecon_txt {
     font-size: 2.7em;
     color: white;
 }
-.fmsecon_cont_idmt{
+
+.fmsecon_cont_idmt {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -953,13 +1119,15 @@ body{
     width: 330px;
     font-size: 1.6em;
 }
-.fmsecon_cont_idmt_sl{
+
+.fmsecon_cont_idmt_sl {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 110px;
 }
-.fmsecon_cont_idmt1{
+
+.fmsecon_cont_idmt1 {
     height: 50px;
     width: 320px;
     border-radius: 8px;
@@ -967,7 +1135,8 @@ body{
     font-size: 1.1em;
     color: #2F2235;
 }
-.fmsecon_cont_idmt2{
+
+.fmsecon_cont_idmt2 {
     height: 50px;
     width: 320px;
     border-radius: 8px;
@@ -975,25 +1144,31 @@ body{
     font-size: 1.1em;
     color: #2F2235;
 }
-.fmsecon_idmt{
+
+.fmsecon_idmt {
     color: white;
     font-size: 1.4em;
 }
-.fmsecon_subm{
+
+.fmsecon_subm {
     display: flex;
     justify-content: center;
 
 }
-.fmsecon_subm_{
+
+.fmsecon_subm_ {
     border: none;
 }
-.fmsecon_cont_vstxtsintxt{
+
+.fmsecon_cont_vstxtsintxt {
     height: 60px;
 }
-.fmsecon_vstxt{
+
+.fmsecon_vstxt {
     color: rgba(255, 255, 255, 0.444);
 }
-.fmsecon_sintxt{
+
+.fmsecon_sintxt {
     color: white;
     font-size: 1.5em;
 }
@@ -1004,7 +1179,7 @@ body{
 
 
 /**************inscription********inscription***********inscription**********inscription********/
-.bodinsc{
+.bodinsc {
     background-color: #2f223549;
     height: 700px;
     display: flex;
@@ -1012,7 +1187,8 @@ body{
     align-items: center;
     margin: 20px;
 }
-.fminsc{
+
+.fminsc {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1022,37 +1198,43 @@ body{
     border-radius: 10px;
     background-color: #2F2235;
 }
-.insc_txt{
+
+.insc_txt {
     color: white;
     font-size: 3.5em;
 }
-.fminsc_txt_cont{
+
+.fminsc_txt_cont {
     height: 45px;
     width: 400px;
     border-radius: 10px;
     background-color: white;
     color: #2F2235;
     font-size: 1.5em;
-    border:none;
+    border: none;
 }
-.btn_insc_cont{
+
+.btn_insc_cont {
     width: 80%;
     display: flex;
     justify-content: flex-end;
 }
-.btn_insc{
+
+.btn_insc {
     height: 55px;
     width: 160px;
     font-size: 1.2em;
     border-radius: 10px;
-    border:none;
+    border: none;
     background-color: #5B812E;
-    color:white;
+    color: white;
 }
-.fmseinsc_vstxt{
-    color:rgba(255, 255, 255, 0.521);
+
+.fmseinsc_vstxt {
+    color: rgba(255, 255, 255, 0.521);
 }
-.fmsinsc_secontxt{
+
+.fmsinsc_secontxt {
     color: white;
 }
 
@@ -1060,37 +1242,84 @@ body{
 
 
 /**************accueil********accueil***********accueil**********accueil********/
-.head_fin_accselc{
+.head_fin_accselc {
     background-image: url("./img/bouton-daccueilselc.png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.mnacc{
+
+.mnacc {
     background-color: #2F2235;
-    
+
     height: 2000px;
     color: white;
 }
-.nameuser{
+
+.nameuser {
     color: white;
     font-size: 1.5em;
 }
-.inf_part1_cont{
+#pro{
+}
+#pro:checked ~ .accprof{
+    visibility: visible;
+    z-index: 1;
+    position: fixed;
+    top: 80px;
+}
+
+.accprof {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+.accprof_cont {
     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accprof_lg_p {
+    
+    background-image: url("./img/utilisateur\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.accprof_txtp{
+    color: white;
+}
+.accprof_lg_d {
+    
+    background-image: url("./img/se-deconnecter\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.inf_part1_cont {
+
     height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.inf_part1{
+
+.inf_part1 {
     width: 100%;
     height: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.inf_cont{
+
+.inf_cont {
     height: 480px;
     border: 3px solid #402f47;
     display: flex;
@@ -1098,27 +1327,31 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-.inf_cont_txt{
+
+.inf_cont_txt {
     border: 4px dotted #402f47;
     display: flex;
     justify-content: center;
     font-size: 1.1em;
     width: 400px;
 }
-.inf_form{
+
+.inf_form {
     background-color: #402f47;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 550px;
     height: 370px;
     font-size: 2em;
 }
-.inf_form_al{
+
+.inf_form_al {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.cscl_cont{
+
+.cscl_cont {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1127,7 +1360,8 @@ body{
     height: 300px;
     width: 350px;
 }
-.cscl_txt{
+
+.cscl_txt {
     background-color: #37273f;
     border-radius: 15px;
     height: 40px;
@@ -1136,63 +1370,73 @@ body{
     align-items: center;
     justify-content: center;
 }
-.cscl_als{
+
+.cscl_als {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cscl_al{
+
+.cscl_al {
     display: flex;
     align-items: center;
     border: 2px solid #402f47;
     width: 200px;
 }
-.csclimg{
-    
+
+.csclimg {
+
     background-image: url("./img/Le-Colorisme-et-la-Femme-Noire-Comment-le-Surmonter-en-6-points-naturalsaramaya-discrimination-cheveux-afro-racisme-voyage-afrique-communaute-coiffures-soin-1.png");
     background-size: cover;
     border-radius: 50px;
     height: 50px;
     width: 50px;
 }
-.cscl_lgtel{
-    
+
+.cscl_lgtel {
+
     background-image: url("./img/telefono.png");
     background-size: cover;
     height: 50px;
     width: 50px;
 }
-.cscl_lgmsg{
-    
+
+.cscl_lgmsg {
+
     background-image: url("./img/correo.png");
     background-size: cover;
     height: 50px;
     width: 50px;
 }
-.inf_graph{
+
+.inf_graph {
     background-image: url("./img/GIF_Cashlab.gif");
     background-size: cover;
     height: 250px;
     width: 700px;
 }
-.inf_offr_cont{
-    
+
+.inf_offr_cont {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 1000px;
 }
-.inf_offr_txt_cont{
-    
+
+.inf_offr_txt_cont {
+
     width: 100%;
 }
-.inf_offr_txt{
+
+.inf_offr_txt {
     font-size: 4.5em;
     text-align: center;
     margin-right: 600px;
 }
-.inf_cart{
+
+.inf_cart {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -1201,40 +1445,45 @@ body{
     width: 1000px;
     height: 800px;
 }
-.inf_cont_crd{
-    
+
+.inf_cont_crd {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 350px;
 }
-.inf_crd1{
+
+.inf_crd1 {
     background-image: url("./img/second_carte_effect-removebg-preview.png");
     background-size: cover;
     height: 270px;
     width: 420px;
-    
+
 }
-.inf_crd2{
+
+.inf_crd2 {
     background-image: url("./img/crdba-removebg-preview.png");
     background-size: cover;
     height: 270px;
     width: 420px;
 }
-.inf_crd3{
+
+.inf_crd3 {
     background-image: url("./img/crdinf-removebg-preview.png");
     background-size: cover;
     height: 270px;
     width: 420px;
 }
-.inf_crd4{
+
+.inf_crd4 {
     background-image: url("./img/crdnsia-removebg-preview.png");
     background-size: cover;
     height: 270px;
     width: 420px;
 }
 
-.inf_voirlien{
+.inf_voirlien {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
@@ -1253,24 +1502,27 @@ body{
 
 
 /**************transaction********transcaton***********transaction**********transacion********/
-.head_fin_transselc{
+.head_fin_transselc {
     background-image: url("./img/transactionselc.png");
     background-size: cover;
     height: 60px;
     width: 60px;
 }
-.bod_trans{
+
+.bod_trans {
     height: 4500px;
     background-color: #2F2235;
     color: white;
 }
-.cont_trans_form{
+
+.cont_trans_form {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 950px;
 }
-.trans_form_ps{
+
+.trans_form_ps {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1278,7 +1530,8 @@ body{
     width: 550px;
     height: 800px;
 }
-.trans_form{
+
+.trans_form {
     color: #2F2235;
     font-size: 1.8em;
     display: flex;
@@ -1287,37 +1540,41 @@ body{
     height: 750px;
     width: 480px;
 }
-.trans_form_ps1{
+
+.trans_form_ps1 {
     display: flex;
 }
-.trans_form_ps_labinp{
+
+.trans_form_ps_labinp {
     display: flex;
     flex-direction: column;
 }
-hr{
 
-}
-.trans_form_modpay_txt_cont{
-   
-}
-.trans_form_modpay_txt{
+hr {}
+
+.trans_form_modpay_txt_cont {}
+
+.trans_form_modpay_txt {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.trans_form_modpay_txtil{
+
+.trans_form_modpay_txtil {
     display: inline-block;
     background-color: white;
     width: 110px;
     height: 1px;
 }
-.trans_form_lgrs{
+
+.trans_form_lgrs {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90px;
 }
-.trans_imgMTN{
+
+.trans_imgMTN {
     background-image: url('./img/mtn_MoMo-1024x812.png');
     background-size: cover;
     border-radius: 15px;
@@ -1325,7 +1582,8 @@ hr{
     width: 80px;
     margin-right: 10px;
 }
-.trans_imgORG{
+
+.trans_imgORG {
     background-image: url('./img/orange.png');
     background-size: cover;
     border-radius: 15px;
@@ -1333,7 +1591,8 @@ hr{
     width: 55px;
     margin-right: 10px;
 }
-.trans_imgMOOV{
+
+.trans_imgMOOV {
     background-image: url('./img/moov.png');
     background-size: cover;
     border-radius: 15px;
@@ -1341,26 +1600,31 @@ hr{
     width: 60px;
 
 }
-.trans_form_modpay{
+
+.trans_form_modpay {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
-.trans_form_btn{
+
+.trans_form_btn {
     display: flex;
     justify-content: space-around;
 }
-.trans_corpsgnr2{
+
+.trans_corpsgnr2 {
     display: flex;
     justify-content: center;
 }
-.trans_corp3_acc_txt{
-    color:#FFFFFF;
+
+.trans_corp3_acc_txt {
+    color: #FFFFFF;
     font-size: 2em;
     margin-bottom: 20px;
 }
-.trans_corp3_acc_cont{
+
+.trans_corp3_acc_cont {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1368,57 +1632,68 @@ hr{
     height: 600px;
     background-color: #B591BE;
 }
-.trans_corp3_acc_table{
+
+.trans_corp3_acc_table {
     width: 950px;
     height: 550px;
 }
-.trans_etp_detl{
+
+.trans_etp_detl {
     margin: 20px;
     font-size: 2em;
 }
-.trans_etp_cont{
+
+.trans_etp_cont {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
-.trans_etp{
+
+.trans_etp {
     display: flex;
     flex-direction: column;
 }
-.trans_etp_txtdesc{
+
+.trans_etp_txtdesc {
     margin-left: 20px;
 }
-.trans_etp_img1{
+
+.trans_etp_img1 {
     height: 350px;
     width: 450px;
     background-image: url('./img/imgform.jpeg');
     background-size: cover;
 }
-.trans_etp_img2{
+
+.trans_etp_img2 {
     height: 350px;
     width: 450px;
     background-image: url('./img/imgconfmail.jpeg');
     background-size: cover;
 }
-.trans_etp_img3{
+
+.trans_etp_img3 {
     height: 350px;
     width: 450px;
     background-image: url('./img/Call-Centers-Africa-1024x667.png');
     background-size: cover;
 }
-.trans_etp_img4{
+
+.trans_etp_img4 {
     height: 350px;
     width: 450px;
     background-image: url('./img/imgatt.jpeg');
     background-size: cover;
 }
-.trans_etp_img5{
+
+.trans_etp_img5 {
     height: 350px;
     width: 450px;
     background-image: url('./img/importance-prise-rdv-efficace-entreprise.jpeg');
     background-size: cover;
 }
-.trans_etp_img6{
+
+.trans_etp_img6 {
     height: 350px;
     width: 450px;
     background-image: url('./img/imglvr.jpeg');
@@ -1428,39 +1703,45 @@ hr{
 
 /**************panier********panier***********panier**********panier********/
 
-.bod_panier{
+.bod_panier {
     background-color: #2F2235;
     height: 1200px;
 
 }
-.panier_alg{
+
+.panier_alg {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.panier_contlgtxt{
+
+.panier_contlgtxt {
     display: flex;
     flex-direction: column;
     width: 150px;
     border: 50px solid #2F2235;
 }
-.panier_imglg{
+
+.panier_imglg {
     background-image: url('./img/panier\ \(2\).png');
     background-size: cover;
     height: 140px;
     width: 140px;
 }
-.panier_txt{
+
+.panier_txt {
     color: white;
     font-size: 2em;
     text-align: center;
 }
-.panier_btn_cont{
+
+.panier_btn_cont {
     height: 400px;
     display: flex;
     align-items: end;
 }
-.panier_btn{
+
+.panier_btn {
     font-size: 1.5em;
     border-radius: 10px;
     background-color: #D9D9D9;
